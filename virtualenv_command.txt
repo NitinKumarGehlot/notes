@@ -1,0 +1,22 @@
+pip install virtualenv
+work in virtual environment -------for saperate project
+work in powershell
+
+create new folder for virtual environment
+use powershell in visual studio code(recommended)            shift+rightclick for open window powershell in folder
+virtualenv myenv
+.\myenv\Scripts\activate                        if error then --  open windowpowershell as admin and run set-executionpolicy remotesigned
+deactivate
+.\myenv\Scripts\activate
+now install your packages ex- pip install django,pip install djangorestframework,pip install mysqlclient,pip install pillow
+create your project
+always run your project in your environment 
+complete project
+pip freeze > requirements.txt
+
+
+pip install -r .\requirements.txt
+virtualenv --system--site--packages myenv                        for install all packages of your pc in your environment
+
+check version of any module--->import module
+			       module --version
